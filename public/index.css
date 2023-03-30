@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.navbar-custom-color{
+    background-color: #000000;
+    color: white;
+    margin-top: 20px;
+}
+
+body{
+    background-color: #080808;
+}
+.brand-custom{
+    font-family: 'Kaushan Script', cursive;
+    margin-left: -50px;
+}
+
+.p{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 25px;
+}
+
+.collapse-custom{
+    margin-right: -20px;
+}
+
+.header {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: 5%;
+    color: white;
+  }
+  
+.text-header {
+    max-width: 45%;
+    margin-top: 12%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.text-header h1{
+    font-size: 75px;
+    line-height: 160px;
+}
+  .image-header {
+    max-width: 50%;
+  }
+  .image-header img{
+    max-width: 30%;
+  }
+  
