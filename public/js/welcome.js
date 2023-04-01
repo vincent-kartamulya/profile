@@ -4,3 +4,10 @@ var typed = new Typed(".auto-input",{
     backSpeed: 70,
     loop: true
 })
+
+VanillaTilt.init(document.querySelector(".card"), {
+    max: 25,
+    speed: 400,
+    glare: true,
+    "max-glare": 1,
+})

@@ -1,17 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
+* {
+    box-sizing: border-box;
+}
 .navbar-custom-color{
-    background-color: #000000;
+    background-color: #121313;
     color: white;
     margin-top: 20px;
 }
 
 body{
-    background-color: #080808;
+    background-color: #121313;
 }
 .brand-custom{
     font-family: 'Kaushan Script', cursive;
-    margin-left: -50px;
+    margin-left: -35px;
 }
 
 .p{
@@ -44,10 +46,143 @@ body{
     font-size: 75px;
     line-height: 160px;
 }
-  .image-header {
+.image-header {
     max-width: 50%;
-  }
-  .image-header img{
+    display: flex;
+}
+.image-header img{
     max-width: 30%;
-  }
+}
+
+.glow-border {
+    border: 3px solid #ffffff; /* set the border color and width */
+    border-radius: 5px; /* set the border radius */
+    box-shadow: 0 0 5px #ffffff; /* set the initial glow effect */
+    animation: glow 1s ease-in-out infinite; /* apply the animation */
+}
+
+.header-item1{
+    position: relative;
+    margin: auto;
+    margin-top: 30%;
+    margin-left: 9%;
+    transform: scale(1.2);
+}
+
+.header-item2{
+    margin: auto;
+    position: relative;
+    margin-left: -15px;
+    margin-top: 8%;
+}
+
+.header-item3{
+    margin: auto;
+    position: relative;
+    transform: scale(0.6);
+    margin-top: 38%;
+    margin-left: -120px;
+}
+
+.header-item4{
+    margin: auto;
+    position: relative;
+    margin-top: 24%;
+    margin-left: -100px;
+    transform: scale(0.7);  
+}
+
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #ffffff; /* start with the same glow effect */
+    }
+    50% {
+      box-shadow: 0 0 8px #ffffff; /* increase the glow effect */
+    }
+    100% {
+      box-shadow: 0 0 5px #ffffff; /* return to the original glow effect */
+    }
+}
+.ttl-img{
+    width: 80%;
+    align-self: center;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+}
+.ttl-container{
+    display: flex;
+    
+}
   
+.container-custom{
+    margin-top: 7%;
+}
+
+.fact-custom p{
+    text-align: right;
+    margin-top: 1%;
+}
+
+.container-card-custom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+.card{
+    position: relative;
+    width: 60%;
+    transform: scale(0.5);  
+    height: 90%;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    justify-self:center;
+    align-self: center;    
+}
+
+.content h3{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.map-custom{
+    margin-top: 8%;
+    display: flex;
+}
+
+.map-img{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.map-img iframe{
+    flex: 1;
+    width: 50%;
+    height: 400px;
+    filter: invert(100%);
+    border-radius: 5%;
+}
+
+.map-text{
+    margin: auto;
+    margin-left: 2%;
+    max-width: 55%;
+    color: #ffffff;
+}
+
+.edu-head-custom{
+    margin-top: 10%;
+    text-align: center;
+}
+
