@@ -280,13 +280,13 @@
         </h3>
     </div>
     <div class="flex-center">
-        <a href="google.com">
+        <a href="https://github.com/vincent-kartamulya/">
             <i class="fa fa-github fa-4x icon-3d " style="margin-left: 42%; margin-top: 1%"></i>
         </a>
-        <a href="google.com">
+        <a href="https://instagram.com/vincent_kart?igshid=ZDdkNTZiNTM=">
             <i class="fa fa-instagram fa-4x icon-3d"></i>
         </a>
-        <a href="wa.me/081287966089">
+        <a href="https://wa.me/081287966089">
             <i class="fa fa-whatsapp fa-4x icon-3d"></i>
         </a>
         
