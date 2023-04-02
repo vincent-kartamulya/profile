@@ -31,10 +31,7 @@
                 <a class="nav-link" href="#project">Project</a>
             </li>
             <li class="nav-item p">
-                <a class="nav-link" href="#">Contact Me</a>
-            </li>
-            <li class="nav-item p">
-                <a class="nav-link" href="#">Take a Photo</a>
+                <a class="nav-link" href="#contactme">Contact Me</a>
             </li>
             </ul>
         </div>
@@ -154,7 +151,7 @@
 
     <div class="container text-light tired-ask-custom">
         <h3 display-5>
-            So, have I ever feel exhausted in PPTI?
+            You may ask, have you ever feel exhausted in PPTI?
         </h3>
     </div>
 
@@ -277,12 +274,25 @@
         </div>
     </div>
 
-    <div class="container text-light contact-me">
+    <div class="container text-light contact-me" id="contactme">
         <h3 class="display-7">
-            Got interested in me?
+            Got interested in me? Or just want to have a chat? Feel free to contact me!
         </h3>
-        <button type="button" class="btn btn-primary btn-lg  contact-btn-custom button-hover color-4">Contact Me</button>
     </div>
+    <div class="flex-center">
+        <a href="google.com">
+            <i class="fa fa-github fa-4x icon-3d " style="margin-left: 42%; margin-top: 1%"></i>
+        </a>
+        <a href="google.com">
+            <i class="fa fa-instagram fa-4x icon-3d"></i>
+        </a>
+        <a href="wa.me/081287966089">
+            <i class="fa fa-whatsapp fa-4x icon-3d"></i>
+        </a>
+        
+        
+    </div>
+
 
     <footer class="bg-dark text-white footer-custom">
         <div class="container py-3 container-footer">

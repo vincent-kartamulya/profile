@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -486,7 +487,7 @@ body{
   font-size: 80px;
 }
 .contact-me{
-  margin-top: 0%;
+  margin-top: -8%;
   text-align: center;
 }
 
@@ -551,4 +552,61 @@ body{
 .button-hover.color-4 {
   background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
   box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+
+.contact-button-custom{
+  display: flex;
+}
+
+$redColor: rgba(244,67,54,1);
+$blueColor:rgba(33,150,243,1);
+
+.flex-center {
+  width: 100%;
+  min-height: 50vh;
+  background: #000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+  -webkit-justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: #fff;
+}
+.icon-3d:hover {
+  -webkit-animation: icon3d 200ms infinite;
+  animation: icon3d 200ms infinite;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px rgba(244,67,54,1), -5px -6px rgba(33,150,243,1);
+  }
+  25% {
+    text-shadow: -5px -6px rgba(244,67,54,1), 5px 4px rgba(33,150,243,1);
+  }
+  50% {
+    text-shadow: 5px -4px rgba(244,67,54,1), -8px 4px rgba(33,150,243,1);
+  }
+  75% {
+    text-shadow: -8px -4px rgba(244,67,54,1), -5px -4px rgba(33,150,243,1);
+  }
+  100% {
+    text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px rgba(33,150,243,1);
+  }
+}
+.flex-center a{
+  color: #121313;
 }
