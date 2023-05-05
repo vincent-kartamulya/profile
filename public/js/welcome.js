@@ -1,3 +1,5 @@
+const { entries } = require("lodash");
+
 var typed = new Typed(".auto-input",{
     strings: ["Vincent", "Student", "Human", "Sneakys"],
     typeSpeed: 100,
@@ -53,5 +55,7 @@ $(document).ready(function() {
         });
     });
 });
+
+
 
 

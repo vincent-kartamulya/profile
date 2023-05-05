@@ -4,6 +4,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar-custom-color{
     background-color: #121313;
     color: white;
@@ -43,6 +46,7 @@ body{
 .p{
     font-family: 'Poppins', sans-serif;
     padding-left: 25px;
+    font-size: 18px;
 }
 
 .collapse-custom{
@@ -609,4 +613,11 @@ $blueColor:rgba(33,150,243,1);
 }
 .flex-center a{
   color: #121313;
+}
+
+#progress-bar {
+  --progress: 0;
+  height: 6px;
+  width: var(--progress);
+  background-color: white;
 }

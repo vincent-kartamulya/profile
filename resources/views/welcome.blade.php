@@ -14,8 +14,8 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom-color navbar fixed-top">
-    <div class="container text-white">
-    <a class="navbar-brand brand-custom" href="#">All About Vincent</a>
+    <div class="container text-white header-custom">
+    <a class="navbar-brand brand-custom display-3" href="#">All About Vincent</a>
         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,6 +37,7 @@
         </div>
     </div>
     </nav>
+    <div id="progress-bar"></div>
     
     <div class="header">
         <div class="text-header">
@@ -280,19 +281,18 @@
         </h3>
     </div>
     <div class="flex-center">
-        <a href="google.com">
+        <a href="https://github.com/vincent-kartamulya/">
             <i class="fa fa-github fa-4x icon-3d " style="margin-left: 42%; margin-top: 1%"></i>
         </a>
-        <a href="google.com">
+        <a href="https://instagram.com/vincent_kart?igshid=ZDdkNTZiNTM=">
             <i class="fa fa-instagram fa-4x icon-3d"></i>
         </a>
-        <a href="wa.me/081287966089">
+        <a href="https://wa.me/081287966089">
             <i class="fa fa-whatsapp fa-4x icon-3d"></i>
         </a>
         
         
     </div>
-
 
     <footer class="bg-dark text-white footer-custom">
         <div class="container py-3 container-footer">
