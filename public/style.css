@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.navbar-custom-color{
+    background-color: #121313 !important;
+    color: white;
+    margin-top: 20px;
+}
+.navbar{
+  margin-top: 0;
+}
+.navbar-custom li.indomie:hover a{
+    background: linear-gradient(#f84c4c, #fafa57, #5dfe5d);
+    color: black !important;
+    width: 100%;
+    border-radius: 18px;
+}
+
+.navbar-custom{
+    margin-left: 36%;
+}
+.navbar-custom li:hover a{
+  background: rgb(182, 182, 182);
+  color: black !important;
+  width: 100%;
+  border-radius: 18px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand-custom{
+    font-family: 'Kaushan Script', cursive;
+    margin-left: -100px;
+}
+
+.p{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.collapse-custom{
+    margin-left: 10%;
+}
+
+body {
+    background: linear-gradient(#f84c4c, #fafa57, #5dfe5d);
+    font-family: 'Varela Round', sans-serif;
+}
+
+a:hover {text-decoration: none;}
+
+.row-custom:hover{
+    transform: scale(1.1);
+}
+.best-custom{
+    font-size: 50px;
+    color: white;
+    font-family: 'lobster';
+    margin-top: 10%;
+}
+
+.best-custom-h3{
+    font-size: 30px;
+    color: white;
+    font-family: 'lobster';
+    margin-bottom: 8%;
+}
+
+.silver {
+    background-color: #c0c0c0 !important;
+    color: black;
+}
+
+.gold {
+    background-color: #ffd700 !important;
+    color: black;
+}
+
+.red{
+    background-color: #ff0000 !important;
+    color: white;
+}
+
+.footer-custom{
+    margin-top: 8%;
+}
+
+.container-footer{
+    display: flex;
+}
+
+.love-footer{
+    margin-left: 50%;
+}
+
+.py-5-custom{
+    margin-top: 5%;
+}

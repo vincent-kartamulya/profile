@@ -13,42 +13,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom-color navbar fixed-top">
-    <div class="container text-white header-custom">
-    <a class="navbar-brand brand-custom display-3" href="#">All About Vincent</a>
-        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse collapse-custom" id="navbarNav">
-            <ul class="navbar-nav ms-auto navbar-custom" >
-            <li class="nav-item p active selected">
-                <a class="nav-link" href="#">General</a>
-            </li>
-            <li class="nav-item p">
-                <a class="nav-link" href="#learning">Learning</a>
-            </li>
-            <li class="nav-item p">
-                <a class="nav-link" href="#project">Project</a>
-            </li>
-            <li class="nav-item p">
-                <a class="nav-link" href="#contactme">Contact Me</a>
-            </li>
-            </ul>
-        </div>
-    </div>
-    </nav>
+    @include("layouts.navbar")
     <div id="progress-bar"></div>
-    
+
     <div class="header">
         <div class="text-header">
             <h1>Hi! I'm <span class="auto-input"></span></h1>
             <p>But my friends also know me as Chincent(?). Always enthusiast in learning and trying new things, because as Chitato's motto goes, Life is never flat!</p>
         </div>
         <div class="image-header">
-            <img class="rounded glow-border header-item1" src="img/img5.jpg" alt="">
-            <img class="rounded glow-border header-item2" src="img/img2.jpg" alt="">
-            <img class="rounded glow-border header-item3" src="img/img3.jpg" alt="">
-            <img class="rounded glow-border header-item4" src="img/img1.jpg" alt="">
+            <img class="rounded glow-border header-item1" src="/img/home/img5.jpg" alt="">
+            <img class="rounded glow-border header-item2" src="/img/home/img2.jpg" alt="">
+            <img class="rounded glow-border header-item3" src="/img/home/img3.jpg" alt="">
+            <img class="rounded glow-border header-item4" src="/img/home/img1.jpg" alt="">
         </div>
     </div>
     <div class="container-card-custom">
@@ -88,65 +65,65 @@
     </div>
 
     <section id="timeline">
-  
+
         <div class="tl-item">
-          
-          <div class="tl-bg" style="background-image: url(img/sd.jpg)"></div>
-          
+
+          <div class="tl-bg" style="background-image: url(/img/home/sd.jpg)"></div>
+
           <div class="tl-year">
             <p class="f2 heading--sanSerif">2009</p>
           </div>
-      
+
           <div class="tl-content">
             <h1>SD SAN MARINO</h1>
             <p>Yes, this is my elementary school. For 6 years, I study, play and suffer in this school. This building holds many childhood memories for me</p>
           </div>
-      
+
         </div>
-      
+
         <div class="tl-item">
-          
-          <div class="tl-bg" style="background-image: url(img/smp.jpg)"></div>
-          
+
+          <div class="tl-bg" style="background-image: url(/img/home/smp.jpg)"></div>
+
           <div class="tl-year">
             <p class="f2 heading--sanSerif">2015</p>
           </div>
-      
+
           <div class="tl-content">
             <h1 class="f3 text--accent ttu">SMP SAN MARINO</h1>
             <p>After 6 years of elementary school, it turns out that I actually went back to the same school for junior high. But fortunately I was able to pass it</p>
           </div>
-      
+
         </div>
-      
+
         <div class="tl-item">
-          
-          <div class="tl-bg" style="background-image: url(img/sma.jpg)"></div>
-          
+
+          <div class="tl-bg" style="background-image: url(/img/home/sma.jpg)"></div>
+
           <div class="tl-year">
             <p class="f2 heading--sanSerif">2018</p>
           </div>
-      
+
           <div class="tl-content">
             <h1 class="f3 text--accent ttu">SMA SAN MARINO</h1>
             <p>The image feel similar from before? Yeah, because it's the same school. In this high school I majored in Science. Why? Because I want to.</p>
           </div>
-      
+
         </div>
-      
+
         <div class="tl-item">
-          
-          <div class="tl-bg" style="background-image: url(img/bli.jpg)"></div>
-          
+
+          <div class="tl-bg" style="background-image: url(/img/home/bli.jpg)"></div>
+
           <div class="tl-year">
             <p class="f2 heading--sanSerif">2021</p>
           </div>
-      
+
           <div class="tl-content">
             <h1 class="f3 text--accent ttu">PPTI BCA</h1>
             <p>PPTI BCA is a scholarship program from BCA in the field of computer science. I'm currently in my 5th semester and will soon be taking part in On Job Training</p>
           </div>
-      
+
         </div>
       </section>
 
@@ -168,97 +145,97 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner carousel-inner-custom">
               <div class="carousel-item active" data-bs-interval="3000">
-                <img src="img/f1.jpg" class="d-block w-100" alt="...">
+                <img src="/img/home/f1.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/f2.jpg" class="d-block w-100" alt="...">
+                <img src="/img/home/f2.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item" data-bs-interval="3000"    >
-                <img src="img/f3.jpg" class="d-block w-100" alt="...">
+                <img src="/img/home/f3.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
         </div>
-  
+
         <div class="container map-text">
             <h3>
                 I always got my friends who encourages me all the time. And of course we don't always study, of course there are some kind of hangout or "healing" too.
             </h3>
         </div>
     </div>
-    
+
     <div class="container text-light edu-head-custom">
         <h2 display-5>
             What I've learned so far...
         </h2>
     </div>
-    
+
     <div class="slider">
         <div class="slide-track">
             <div class="slide">
-                <img src="img/cpp.png" height="100" width="100" alt="" />
+                <img src="/img/home/cpp.png" height="100" width="100" alt="" />
             </div>
             <div class="slide">
-                <img src="img/java.png" height="100" width="150" alt="" />
+                <img src="/img/home/java.png" height="100" width="150" alt="" />
             </div>
             <div class="slide">
-                <img src="img/python.png" height="100" width="175" alt="" />
+                <img src="/img/home/python.png" height="100" width="175" alt="" />
             </div>
             <div class="slide">
-                <img src="img/html.png" height="130" width="140" alt="" />
+                <img src="/img/home/html.png" height="130" width="140" alt="" />
             </div>
             <div class="slide">
-                <img src="img/css.png" height="100" width="100" alt="" />
+                <img src="/img/home/css.png" height="100" width="100" alt="" />
             </div>
             <div class="slide">
-                <img src="img/js.png" height="100" width="100" alt="" />
+                <img src="/img/home/js.png" height="100" width="100" alt="" />
             </div>
             <div class="slide">
-                <img src="img/mysql.png" height="150" width="150" alt="" />
+                <img src="/img/home/mysql.png" height="150" width="150" alt="" />
             </div>
             <div class="slide">
-                <img src="img/R.png" height="100" width="100" alt="" />
+                <img src="/img/home/R.png" height="100" width="100" alt="" />
             </div>
             <div class="slide">
-                <img src="img/cpp.png" height="100" width="100" alt="" />
+                <img src="/img/home/cpp.png" height="100" width="100" alt="" />
             </div>
             <div class="slide">
-                <img src="img/java.png" height="100" width="150" alt="" />
+                <img src="/img/home/java.png" height="100" width="150" alt="" />
             </div>
             <div class="slide">
-                <img src="img/python.png" height="100" width="175" alt="" />
+                <img src="/img/home/python.png" height="100" width="175" alt="" />
             </div>
             <div class="slide">
-                <img src="img/html.png" height="130" width="140" alt="" />
+                <img src="/img/home/html.png" height="130" width="140" alt="" />
             </div>
             <div class="slide">
-                <img src="img/css.png" height="100" width="100" alt="" />
+                <img src="/img/home/css.png" height="100" width="100" alt="" />
             </div>
             <div class="slide">
-                <img src="img/js.png" height="100" width="100" alt="" />
+                <img src="/img/home/js.png" height="100" width="100" alt="" />
             </div>
             <div class="slide">
-                <img src="img/mysql.png" height="150" width="150" alt="" />
+                <img src="/img/home/mysql.png" height="150" width="150" alt="" />
             </div>
             <div class="slide">
-                <img src="img/R.png" height="100" width="100" alt="" />
+                <img src="/img/home/R.png" height="100" width="100" alt="" />
             </div>
         </div>
     </div>
-    
+
     <div id="project"></div>
     <div class="project-custom" >
         <div class="project-card">
             <div class="project-card-sec1">
                 <div class="card card-1" style="width: 35rem;">
-                    <img src="img/zinfo.JPG" class="card-img-top" alt="...">
+                    <img src="/img/home/zinfo.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title fw-bold display-6">Zinfo</h3>
                       <p class="card-text"><br>Zinfo is a website providing event information. Our team called "SEMANGAT 45" made this in the 4th semester Software Engineering course project. The dominant technologies used in this project are php, html, css, javascript</p>
                       <a href="https://github.com/vincent-kartamulya/zinfo" class="btn btn-primary btn-lg btn-custom button-hover color-9">View Zinfo</a>
                     </div>
                 </div>
-                <div class="card card-2" style="width: 35rem;"> 
-                    <img src="img/foundly.png" class="card-img-top" alt="...">
+                <div class="card card-2" style="width: 35rem;">
+                    <img src="/img/home/foundly.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h3 class="card-title fw-bold display-6">Foundly</h3>
                       <p class="card-text"><br>Foundly is a web-based learning platform for children that uses object detection to display the names of objects around them in English. Our team called "PomfPomf V.3") made this in the 3rd semester Artificial Intelligence course project. The dominant technologies used in this project are python and react</p>
@@ -290,23 +267,20 @@
         <a href="https://wa.me/081287966089">
             <i class="fa fa-whatsapp fa-4x icon-3d"></i>
         </a>
-        
-        
     </div>
 
-    <footer class="bg-dark text-white footer-custom">
-        <div class="container py-3 container-footer">
-            <p>Copyright © 2023. All rights reserved.</p>
-            <div class="love-footer">
-                <p>Made with love, joy and tear from Sentul</p>
-            </div>
-            
-        </div>
-      </footer>
+    @include("layouts.footer")
 
-    
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-input",{
+            strings: ["Vincent", "Student", "Human", "Sneakys"],
+            typeSpeed: 100,
+            backSpeed: 70,
+            loop: true
+        })
+    </script>
     <script src="js/welcome.js"></script>
     <script type="text/javascript" src="js/vanilla-tilt.js"></script>
 </body>

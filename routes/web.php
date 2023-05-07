@@ -23,3 +23,8 @@ Route::get('/mantap', [MantapController::class, 'index']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/indomie', [App\Http\Controllers\ProdukController::class,'index']);
+
+Route::get('/indomie/{id}', [App\Http\Controllers\ProdukController::class,'detail']);
+
